@@ -9,6 +9,6 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'dist',  // Đảm bảo tệp build được đưa vào thư mục public
+        outDir: 'dist',  
     },
 });
