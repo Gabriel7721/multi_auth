@@ -21,7 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
             guests: 'account/login',
             users: 'account/dashboard'
         );
-
+        $middleware->trustProxies(at: '*');
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

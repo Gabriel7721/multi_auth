@@ -10,6 +10,7 @@
 .env.production
 .phpactor.json
 .phpunit.result.cache
+.vercel
 Homestead.json
 Homestead.yaml
 auth.json
