@@ -8,4 +8,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public',  // Đảm bảo tệp build được đưa vào thư mục public
+    },
 });
